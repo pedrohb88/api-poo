@@ -1,0 +1,14 @@
+{
+  "name": "api-poo",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de farmácias para a disciplina de POO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Leal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
