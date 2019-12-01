@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API-POO</title>
+
+         <link rel="stylesheet" type="text/css"  href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css"  href="/assets/css/style.css">
+    </head>
+    <body>
+
+         <div class="container-fluid h-100 bg-info">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="container bg-light col-4 p-4">
+                    <form action="/products/medicine/MedicineBlack" method="post">
+
+                    <h1>Adicionar Remédio Tarja preta</h1>
+                        <div class="form-group">
+                            <label>Token de autenticação</label>
+                            <input class="form-control" name="x-auth" type="text" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Nome</label>
+                            <input class="form-control" name="name" type="text" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Data de validade</label>
+                            <input class="form-control" name="expirationDate" type="date" required>
+                        </div>
+
+                         <div class="form-group">
+                            <label>Preço</label>
+                            <input class="form-control" name="price" type="number" step="any" required>
+                        </div>
+
+                         <div class="form-group">
+                            <label>Fabricante</label>
+                            <input class="form-control" name="manufacturer" type="text" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Descrição</label>
+                            <input class="form-control" name="description" type="text" >
+                        </div>
+
+                          <div class="form-group">
+                            <label>Quantidade</label>
+                            <input class="form-control" name="quantity" type="number" >
+                        </div>
+
+                        <div class="form-group">
+                            <label>Composição</label>
+                            <input placeholder="Digite cada substância separada por vírgula" class="form-control" name="composicao" type="text" >
+                        </div>
+
+                          <div class="form-group">
+                            <label>Contra indicações</label>
+                            <input class="form-control" name="contraIndicativos" type="text" >
+                        </div>
+
+                          <div class="form-group">
+                            <label>Efeitos colaterais</label>
+                            <input  class="form-control" name="efeitosColaterais" type="text" >
+                        </div>
+
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

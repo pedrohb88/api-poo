@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API-POO</title>
+
+         <link rel="stylesheet" type="text/css"  href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css"  href="../assets/css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid h-100 bg-info">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="container bg-light col-4 p-4">
+                    <form action="../cliente/pedido" method="post">
+                        <h1>Ver meus pedidos</h1>
+                        <div class="form-group">
+                            <label>Token</label>
+                            <input class="form-control" name="x-auth">
+                        </div>
+
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

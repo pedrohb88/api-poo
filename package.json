@@ -4,11 +4,24 @@
   "description": "API para gerenciamento de farmácias para a disciplina de POO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "test": "mocha tests/*.test.js"
   },
   "author": "Pedro Leal",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "hbs": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.17.1",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "mocha": "^6.2.1",
+    "supertest": "^4.0.2"
   }
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API-POO</title>
+
+         <link rel="stylesheet" type="text/css"  href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css"  href="../assets/css/style.css">
+    </head>
+    <body>
+        <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Data de validade</th>
+                <th scope="col">Fabricante</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Composição</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Contra Indicações</th>   
+                <th scope="col">Efeitos colaterais</th>   
+                <th scope="col">Genérico de</th>   
+                <th scope="col">Desconto</th>   
+                <th scope="col">Tipo de produto</th>
+                <th scope="col">Quantidade disponível</th>    
+                </tr>
+            </thead>
+            <tbody>
+                {{#list products}}{{/list}}
+            </tbody>
+        </table>
+    </body>
+</html>
